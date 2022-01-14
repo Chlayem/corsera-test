@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgb(49, 49, 63);
+    background-size: 100%;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 12px 20px rgb(0 0 0 / 20%);
+}
+body{
+    background-image: url(./Photo/BG.jpg);
+    background-size: 100%;
+    position: relative;
+    font-size: 120%;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.75em;
+    color:white;
+    cursor: pointer;
+
+}
+h3
+{
+    float: right;
+    width: 40%;
+    padding: 10px ;
+    font-size: 1.25em;
+    margin: 0px;
+    margin-bottom: 10px;
+    border-bottom-left-radius:10px;
+    border-top-right-radius: 4px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 50%);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.836);
+}
+p{
+    clear: right;
+    margin: 30px;
+    color: rgba(0, 0, 0, 0.836);
+}
+.container{
+    
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 12px 20px rgb(0 0 0 / 20%);
+    padding-bottom: 10px;
+}
+#chicken{
+    background-color: rgb(226, 200, 83);
+    transition: 0.5s ease;
+}
+#chicken:hover{
+    background-color: rgb(179, 146, 0);
+    color: white;
+    cursor: pointer;
+}
+#beef{
+    background-color: thistle;
+    transition: 0.5s ease;
+}
+#beef:hover{
+    background-color: rgb(114, 68, 114);
+    color: white;
+    cursor: pointer;
+}
+#sushi{
+    background-color: teal;
+    transition: 0.5s ease;
+}
+#sushi:hover{
+    background-color: rgb(4, 68, 68);
+    color: white;
+    cursor: pointer;
+}
+@media (min-width : 992px) {
+    .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,
+    .col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
+        float: left;
+        
+        padding: 10px;
+    }
+    .col-lg-1{
+        width: 8.33%;
+    }
+    .col-lg-2{
+        width: 16.66%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-5{
+        width: 41.66%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.33%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.33%;
+    }
+    .col-lg-11{
+        width: 91.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+
+}
+
+@media (min-width : 768px) and (max-width: 991px){
+    .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,
+    .col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+        float: left;
+        padding: 10px;
+    }
+    .col-md-1{
+        width: 8.33%;
+    }
+    .col-md-2{
+        width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.33%;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+
+}
+@media (max-width : 767px) {
+    .col-sl-1,.col-sl-2,.col-sl-3,.col-sl-4,.col-sl-5,.col-sl-6,.col-sl-7,
+    .col-sl-8,.col-sl-9,.col-sl-10,.col-sl-11,.col-sl-12{
+        float: left;
+        padding: 10px;
+    }
+    .col-sl-1{
+        width: 8.33%;
+    }
+    .col-sl-2{
+        width: 16.66%;
+    }
+    .col-sl-3{
+        width: 25%;
+    }
+    .col-sl-4{
+        width: 33.33%;
+    }
+    .col-sl-5{
+        width: 41.66%;
+    }
+    .col-sl-6{
+        width: 50%;
+    }
+    .col-sl-7{
+        width: 58.33%;
+    }
+    .col-sl-8{
+        width: 66.66%;
+    }
+    .col-sl-9{
+        width: 75%;
+    }
+    .col-sl-10{
+        width: 83.33%;
+    }
+    .col-sl-11{
+        width: 91.66%;
+    }
+    .col-sl-12{
+        width: 100%;
+    }
+
+}
