@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+#header-nav{
+    border-radius: 0%;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list span{
+    font-size: 2em;
+}
+.navbar-header .navbar-brand h1{
+    margin-top: -5px;
+}
+#chicken{
+    background-color: bisque;
+}
+#main-content{
+    margin-bottom: 20px;
+}
+h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
